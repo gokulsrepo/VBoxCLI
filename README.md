@@ -22,10 +22,10 @@ vmps list
 ````
 - To list running virtual machines:
 ```
+For Batch script:
 vm rlist
-````
-- For PowerShell:
-```
+
+For PowerShell:
 vmps rlist
 ````
 
@@ -42,21 +42,21 @@ Replace `<machine_name>` with the name of the virtual machine.
 
 - Examples:
 - Start a VM named `kali-linux`:
-  ```
-  vm start kali-linux
-  ```
-- For PowerShell:
 ```
- vmps start kali-linux
+For Batch script:
+vm start kali-linux
+
+For PowerShell:
+vmps start kali-linux
 ````
 ### Additional Information:
 - Before using the script, ensure that the VirtualBox installed path is added to the system environment PATH. By default, it is usually located at `C:\Program Files\Oracle\VirtualBox\`. Restart your system after making changes to the PATH.
 - For further assistance, use the `help` command:
 ```
+For Batch script:
 vm help
-````
-- For PowerShell:
-```
- vmps help
+
+For PowerShell:
+vmps help
 ````
 Feel free to modify and improve the script according to your requirements. Contributions are welcome!
