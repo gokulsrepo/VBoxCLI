@@ -14,9 +14,10 @@ These scripts provides a convenient way to manage VirtualBox virtual machines (V
 ### Listing VMs:
 - To list all owned virtual machines:
 ```
-- For Batch script:
+For Batch script:
 vm list
-- For PowerShell:
+
+For PowerShell:
 vmps list
 ````
 - To list running virtual machines:
