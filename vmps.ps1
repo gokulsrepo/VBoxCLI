@@ -31,7 +31,7 @@ if ($state -ne "") {
     }
     elseif ($state -eq "help") {
         Write-Host "Note: Add VirtualBox installed Path into the system environments PATH (Default: C:\Program Files\Oracle\VirtualBox\ and restart)"
-        Write-Host "Usage: 1) vmps list|help|rlist 2) vmps |start|save|restart|reset|shutdown| machine_name"
+        Write-Host "Usage: 1) ./vmps.ps1 list|help|rlist 2) ./vmps.ps1 |start|save|restart|reset|shutdown| machine_name"
         Write-Host "Example1: ./vmps.ps1 list - shows the list of vms you own"
         Write-Host "Example2: ./vmps.ps1 start kali-linux - startup your kali machine from cmd"
     }
