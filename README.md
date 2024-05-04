@@ -41,8 +41,8 @@ Replace `<action>` with one of the following:
 
 Replace `<machine_name>` with the name of the virtual machine.
 
-- Examples:
-- Start a VM named `kali-linux`:
+## Examples:
+- To start a VM named `kali-linux`:
 ```
 For Command Prompt:
 vm start kali-linux
