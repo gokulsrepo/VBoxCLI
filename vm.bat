@@ -30,7 +30,7 @@ goto :main
             VBoxManage list runningvms
         ) else if "%state%"=="help" (
                 echo "Note: Add VirtualBox installed Path into the system environments PATH (Default: C:\Program Files\Oracle\VirtualBox\ and restart)"
-                echo "Usage: 1) vm list|help|rlist 2) vm |start|save|restart|reset|shutdown| machine_name"
+                echo "Usage: 1) ./vm.bat list|help|rlist 2) ./vm.bat |start|save|restart|reset|shutdown| machine_name"
                 echo "Example1: ./vm.bat list - shows the list of vms you own"
                 echo "Example2: ./vm.bat start kali-linux - startup your kali machine from cmd"
             ) 
