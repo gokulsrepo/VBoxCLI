@@ -2,7 +2,7 @@
 
 These scripts provides a convenient way to manage VirtualBox virtual machines (VMs) directly from the command line interface (CLI) using Command Prompt or PowerShell. Users can perform various actions on VMs such as starting, saving, restarting, resetting, or shutting down.
 
-## Note:
+## Important Instructions:
 
 ### For Batch Script (Command Prompt):
 - This script requires VirtualBox to be installed on your system. Before using the script, ensure that the VirtualBox installed path is added to the system environment PATH. By default, it is usually located at `C:\Program Files\Oracle\VirtualBox\`. Restart your system after making changes to the PATH.
