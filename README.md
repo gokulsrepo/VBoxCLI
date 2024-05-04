@@ -8,7 +8,7 @@ These scripts provides a convenient way to manage VirtualBox virtual machines (V
 - This script requires VirtualBox to be installed on your system. Before using the script, ensure that the VirtualBox installed path is added to the system environment PATH. By default, it is usually located at `C:\Program Files\Oracle\VirtualBox\`. Restart your system after making changes to the PATH.
 - Create a folder and add the scripts to it. To access the script directly from the command prompt or PowerShell, you can also add the folder path to your system environment PATH.
 ### For PowerShell:
-- Follow the above three steps as you did for batch script. Additionally, ensure that you set the execution policy as Unrestricted for CurrentUser scope (Refer the documentation: https:/go.microsoft.com/fwlink/?LinkID=135170).
+- Follow the above two steps as you did for batch script. Additionally, ensure that you set the execution policy as Unrestricted for CurrentUser scope (Refer the documentation: https:/go.microsoft.com/fwlink/?LinkID=135170).
 
 ## Usage:
 
